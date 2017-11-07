@@ -1,0 +1,96 @@
+
+form label,textarea,button{
+
+	width:100%;
+
+	display: block;
+
+}
+.box{
+
+	display: flex;
+	flex-basis: 100%;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+#button,#load,#remove,#update{
+	flex-basis: 48%;
+}
+
+input#name,#email,#phone,#comment{
+
+	width:100%;
+
+	display: block;
+
+}
+
+label{
+
+	font-family: 'Raleway', sans-serif;
+
+	font-size: 1.5rem;
+
+	margin-bottom: 0.3rem;
+
+
+
+}
+
+form input#name[type="text"],input[type="email"],input[type="tel"]{
+
+    display: block;
+
+    margin-bottom: 2rem;
+
+    font-size: 1.7rem;
+
+    font-family: inherit;
+
+   padding-left: 10px;
+
+}
+
+textarea{
+
+	display: block;
+
+    margin-bottom: 2rem;
+
+    font-size: 1.7rem;
+
+    font-family: inherit;
+
+   padding-left: 10px;
+
+   overflow: auto;
+
+}
+
+button{
+
+	display: block;
+
+    margin-bottom: 2rem;
+
+    font-size: 1.7rem;
+
+    font-family: inherit;
+
+   padding-left: 10px;
+
+   background-color: #ccc;
+
+   width: 100%;
+
+}
+
+button input#phone{
+
+margin: 0;
+
+line-height: 1.3;
+
+font-family: sans-serif;
+
+}
